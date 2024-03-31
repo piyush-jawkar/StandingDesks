@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyush Standing Desks</title>
+    <link rel="stylesheet" href="ddw.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-content">
+        <header>
+            <div class="title-container">
+                <img src="Images/desk.png" alt="Logo" class="logo">
+                <h1 class="title">PIYUSH STANDING DESKS</h1>
+                <form class="search-form">
+                    <input type="text" class="search-input" placeholder="Search...">
+                    <button type="submit" class="search-button">Search</button>
+                </form>
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="rising-desks.html">Rising Desks</a></li>
+                <li><a href="health-benefits.html">Health Benefits</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="basket.html">Basket</a></li>
+            </ul>
+        </nav>
+
+
+        <div class="container2">
+            <h1>Shopping Basket</h1>
+
+            <div class="basket-items" id="basket-items">
+
+            </div>
+            <div class="total-price-container">
+                <p id="total-price">Total Price: €0.00</p>
+            </div>
+            <div class="button-container">
+                <button onclick="clearBasket()">Clear Basket</button>
+                <button onclick="makePayment()">Make Payment</button>
+            </div>
+        </div>
+
+
+        <div class="background-image"></div>
+
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="copyright">
+                &copy; 2024 Piyush Standing Desks. All rights reserved.
+            </div>
+            <div class="social-media">
+
+                <a href="#"><img src="Images/facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="Images/instagram-icon.png" alt="Instagram"></a>
+                <a href="#"><img src="Images/x.png.png" alt="X/Twitter"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JavaScript/basket.js"></script>
+
+</body>
+
+</html>
